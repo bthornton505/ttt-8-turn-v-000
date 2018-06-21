@@ -62,6 +62,7 @@ def turn(board)
     else 
       puts "Try again..."
       turn(board)
+      display_board(board)
     end 
 end
 
